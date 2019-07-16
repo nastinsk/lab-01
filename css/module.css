@@ -1,7 +1,7 @@
 /* section c */
 main section:first-child{ 
     width: 100%;
-    background-color:blue;
+    background-color:rgb(167,127,181);
     border: 1px solid black;
     box-sizing: border-box;
     padding-top: calc(26.04166%/2 - 11px);
@@ -11,7 +11,7 @@ main section:first-child{
 
 /* section d */
 main section:nth-child(2){
-    background-color:rgb(107, 107, 185);
+    background-color:rgb(196, 170, 205);
     width: 100%;
     border: 1px solid black;
     box-sizing: border-box;
@@ -29,7 +29,7 @@ p{
     padding-top: calc(52.083%/2 - 11px);
     padding-bottom: calc(52.083%/2 - 11px);
     position:relative;
-    background: purple;
+    background-image: linear-gradient(rgb(196, 170, 205), rgb(136, 192, 142));
 }
 
 @media only screen and  (min-width: 768px) {
@@ -38,18 +38,18 @@ p{
     main section:first-child{ 
         width: 50%;
         float:left;
-        background-color:blue;
         padding-top: calc(52.635%/4 - 11px);
         padding-bottom: calc(52.635%/4 - 11px);
+        background-color:rgba(199, 0, 56, 0.747);
     }
 
     /* section d */
     main section:nth-child(2){
-        background-color:rgb(107, 107, 185);
         width: 50%;
         float:left;
         padding-top: calc(52.635%/4 - 11px);
         padding-bottom: calc(52.635%/4 - 11px);
+        background-color:rgba(199, 0, 56, 0.747);
         
     }
 
@@ -59,6 +59,7 @@ p{
         width: 25%;
         padding-top: calc(32.8949%/2 - 11px);
         padding-bottom: calc(32.8949%/2 - 11px);
+        background-image: linear-gradient(rgb(199, 0, 56, 0.747), rgb(255, 87, 51));
     }
     
 }
