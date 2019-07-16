@@ -1,0 +1,17 @@
+body{
+    background: rgb(168, 167, 167);
+    font-size: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+@media only screen and  (min-width: 768px) {
+    *{
+        color: white;
+    }
+
+    body{
+        width:100%;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+}
