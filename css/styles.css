@@ -80,7 +80,7 @@ footer{
     }
 
     body{
-        
+        width:100%;
         max-width: 960px;
         margin: 0 auto;
     }
@@ -90,7 +90,7 @@ footer{
     position:relative;
     }
     nav{
-        width: 20.8345%;
+        width: 20.833%;
         padding-top: calc(62.5%/2 - 11px);
     padding-bottom: calc(62.5%/2 - 11px);
     position:relative;
