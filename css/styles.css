@@ -1,58 +1,75 @@
 body{
     background: rgb(216, 216, 216);
+    font-size: 20px;
+    text-align: center;
+    
    
 }
 header{
     width: 100%;
 background-color: red;
-padding-top: 15.6%;
+padding-top: calc(15.625%/2 - 11px);
+padding-bottom: calc(15.625%/2 - 11px);
 position:relative;
+border: 1px solid black;
+box-sizing: border-box;
+
 }
 nav{
     width: 100%;
 background-color:yellow;
-padding-top: 37.5%;
+padding-top: calc(31.25%/2 - 11px);
+padding-bottom: calc(31.25%/2 - 11px);
 position:relative;
+text-align: center;
+border: 1px solid black;
+box-sizing: border-box;
 
 }
 section{
-    width: 100%;
+width: 100%;
 background-color:blue;
-padding-top: 15.6%;
 }
+
+/* section e-f-d-f */
 p{
     width: 50%;
-    height: 250px;
+    
     float: left;
     border: 1px solid black;
     box-sizing: border-box;
+    padding-top: calc(52.083%/2 - 11px);
+    padding-bottom: calc(52.083%/2 - 11px);
+    position:relative;
+    background: purple;
 }
 /* section c */
 main section:first-child{ 
-    width: 100%;
+width: 100%;
 background-color:blue;
 border: 1px solid black;
-padding-top: 26%;
+box-sizing: border-box;
+padding-top: calc(26.04166%/2 - 11px);
+padding-bottom: calc(26.04166%/2 - 11px);
+position:relative;
 }
 /* section d */
 main section:nth-child(2){
     width: 100%;
     border: 1px solid black;
-    padding-top: 26%;
-
-
+    box-sizing: border-box;
+    padding-top: calc(26.04166%/2 - 11px);
+    padding-bottom: calc(26.04166%/2 - 11px);
+position:relative;
 }
 
 
-main section:nth-child(3) p:first-child{
-    background: purple;
-    
-}
-
-/* section e-f */
-
-/* section g-h */
 footer{
     width: 100%;
-background-color:green;
+    background: green;
+    float: left;
+    padding-top: calc(16.6666%/2 - 11px);
+    padding-bottom: calc(16.6666%/2 - 11px);
+position:relative;
+
 }
