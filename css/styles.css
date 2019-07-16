@@ -2,7 +2,6 @@ body{
     background: rgb(216, 216, 216);
     font-size: 20px;
     text-align: center;
-    min-width: 480px;
     box-sizing: border-box;
 }
 
@@ -71,6 +70,8 @@ footer{
     padding-top: calc(16.6666%/2 - 11px);
     padding-bottom: calc(16.6666%/2 - 11px);
     position:relative;
+    border: 1px solid black;
+    box-sizing: border-box;
 
 }
 
@@ -84,12 +85,12 @@ footer{
         margin: 0 auto;
     }
     header{
-    padding-top: calc(10.41%/2 - 11px);
-    padding-bottom: calc(10.41%/2 - 11px);
+    padding-top: calc(10.419%/2 - 11px);
+    padding-bottom: calc(10.419%/2 - 11px);
     position:relative;
     }
     nav{
-        width: 20.8%;
+        width: 20.8345%;
         padding-top: calc(62.5%/2 - 11px);
     padding-bottom: calc(62.5%/2 - 11px);
     position:relative;
@@ -99,15 +100,15 @@ footer{
 
     main{
         float:left;
-        width: 79.1%;
+        width: 79.168%;
     }
     /* /* section c */
 main section:first-child{ 
     width: 50%;
     float:left;
     background-color:blue;
-    padding-top: calc(52.63%/4 - 11px);
-    padding-bottom: calc(52.63%/4 - 11px);
+    padding-top: calc(52.635%/4 - 11px);
+    padding-bottom: calc(52.635%/4 - 11px);
    
 }
 /* section d */
@@ -115,15 +116,23 @@ main section:nth-child(2){
     background-color:rgb(107, 107, 185);
     width: 50%;
     float:left;
-    padding-top: calc(52.63%/4 - 11px);
-    padding-bottom: calc(52.63%/4 - 11px);
+    padding-top: calc(52.635%/4 - 11px);
+    padding-bottom: calc(52.635%/4 - 11px);
     
 }
 p{
     float:left;
     width: 25%;
-    padding-top: calc(26.041%/2 - 11px);
-    padding-bottom: calc(26.041%/2 - 11px);
+    padding-top: calc(32.8949%/2 - 11px);
+    padding-bottom: calc(32.8949%/2 - 11px);
+}
+
+footer{
+    width: 79.168%;
+    float: left;
+    padding-top: calc(15.625%/2 - 11px);
+    padding-bottom: calc(15.625%/2 - 11px);
+    
 }
 
 }
