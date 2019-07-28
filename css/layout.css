@@ -1,4 +1,5 @@
-/* * section a */ 
+
+/* work in process */
 header{
     width: 100%;
     background-color: rgb(109, 42, 131);
@@ -8,7 +9,6 @@ header{
     border: 1px solid black;
     box-sizing: border-box;
 }
-
 /* section b */
 nav{
     width: 100%;
@@ -20,12 +20,10 @@ nav{
     border: 1px solid black;
     box-sizing: border-box;
 }
-
 /* section i */
 footer{
     width: 100%;
     background-image: linear-gradient(rgb(136, 192, 142), rgb(69, 151, 77));
-    float: left;
     padding-top: calc(16.6666%/2 - 11px);
     padding-bottom: calc(16.6666%/2 - 11px);
     position:relative;
@@ -33,34 +31,55 @@ footer{
     box-sizing: border-box;
 }
 
-@media only screen and  (min-width: 768px) {
+@media only screen and  (min-width: 415px) {
+    .gridContainer{
+        display: grid;
+        grid-template-rows: 14fr 28fr 35fr 21fr;
+        grid-template-columns: 20fr 19fr 19fr 19fr 19fr;
+    }
     header{
+        grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row:1;
         padding-top: calc(10.419%/2 - 11px);
         padding-bottom: calc(10.419%/2 - 11px);
         position:relative;
         background-color: rgb(87, 24, 69);
     }
     nav{
-        width: 20.833%;
+        grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start:2;
+  grid-row-end: 5;
+        width: 200px;
         padding-top: calc(62.5%/2 - 11px);
         padding-bottom: calc(62.5%/2 - 11px);
         position:relative;
-        float:left;
-        clear: right;
         background-color: rgb(129, 38, 103);
-    }
-    
-    main{
-        float:left;
-        width: 79.168%;
     }
 
     footer{
-        width: 79.168%;
-        float: left;
+        grid-column-start: 2;
+        grid-column-end: 6;
+        grid-row-start:4;
+        grid-row-end: 5;
         padding-top: calc(15.625%/2 - 11px);
         padding-bottom: calc(15.625%/2 - 11px);
         background-image: linear-gradient(rgb(255, 87, 51), rgb(255, 195, 0));
-
     }
+    
+    
+}
+@media screen and (min-width: 415px) and (max-width: 768px) {
+
+    header{
+        background-image: linear-gradient(rgb(8, 1, 63), rgb(62, 43, 150));
+    }
+    nav{
+        background-image: linear-gradient(rgb(21, 5, 143), rgb(99, 80, 185));
+    }
+    footer{
+        background-image: linear-gradient(rgb(174, 92, 250), rgb(148, 53, 148));
+    }
+
 }
